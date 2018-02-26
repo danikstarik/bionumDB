@@ -7,7 +7,7 @@ import sqlite3
 
 models_list = []
 i = 0
-while i<183:
+while i<695:
 	models_list.append("ex"+str(i)+".json")
 	i+=1
 
@@ -59,7 +59,9 @@ c = conn.cursor()
 """
 Insert terms and corresponding nums
 """
+
 i = 0
+'''
 for key in param_dict.keys():
 	c.execute("INSERT INTO {tn} ('bionum_id','bionum_name','user','description') VALUES ({id}, '{term}', 'danikstarik','{descr}');".\
 		format(tn=table_name2, id=key, term=param_dict[key][0], descr=param_dict[key][1]))
@@ -70,7 +72,7 @@ for key in terms_dict.keys():
 		c.execute("INSERT INTO {tn} ('term_id','term_name','bionum_ids') VALUES ({id}, '{term}', {numm});".\
 			format(tn=table_name1, id=i, term=str(key).replace("'",""), numm=num))
 	i+=1
-'''
+
 
 conn.commit()
 conn.close()

@@ -1,0 +1,60 @@
+BIOMD0000000528 - Fribourg2014 
+["influenza","Flu","influenza A","infection","virus","viral","immune","H1N1","innate immune response","viral antagonism","dendritic cells","mammalian cells"] V
+529 - same??
+BIOMD0000000452 - Bidkhori2012 - normal EGFR signalling
+["influenza","influenza A","Flu","infection","virus","viral","immune","tumor","intrinsic resistance","NSCLC","MAPK","mammalian cells","EGFR","cancer","kinase"] XXX
+BIOMD0000000120 - Chan2004_TCell_receptor_activation
+["influenza","influenza A","Flu","kinase","infection","virus","viral","immune","feedback control","viral antagonism","T-cell","receptor activation"] V (x err w print json)?
+
+BIOMD0000000305 - Kolomeisky2003_MyosinV_Processivity
+["influenza","influenza A","Flu","infection","virus","viral","immune","kinetic model","myosin-v","ATP-binding"] V
+BIOMD0000000205 - Ung2008_EGFR_Endocytosis
+["influenza","influenza A","Flu","infection","virus","viral","immune","endocytosis","EGFR","EGFR-ERK","endophilin","RhoA-EGFR"] 
+BIOMD0000000443 - Sarma2012 - Oscillations in MAPK cascade (S1n)
+["influenza","influenza A","Flu","infection","virus","viral","immune","feedback loops","MAPK","nuclear-cytoplasmic translocation","kinase"]XXX No list of params
+BIOMD0000000444 - Sarma2012 - Oscillations in MAPK cascade (S2n)
+["influenza","influenza A","Flu","infection","virus","viral","immune","feedback loops","MAPK","nuclear-cytoplasmic translocation","kinase"]
+XXX No list of params
+BIOMD0000000463 - Heldt2012 - Influenza Virus Replication
+["influenza","Flu","infection","virus","viral","immune","virus replication","RNA","RNA synthesis","mammalian cell","protein binding","vRNP","cRNA","life cycle"] V
+BIOMD0000000033 - Brown2004 - NGF and EGF signaling
+["influenza","influenza A","Flu","influenza A","infection","virus","viral","immune","nerve","NGF","kinase","pheochromocytoma","PC12","mitogenic","epidermal"]
+V
+BIOMD0000000622 - NguyenLK2011 - Ubiquitination dynamics in Ring1B/Bmi1 system
+["influenza","influenza A","infection","virus","viral","immune","excitable responses","Ring1B","Bmi1","mammalian cell","H2A","MAPK","kinase","DNA"]  V
+BIOMD0000000546 - Miao2010 - Innate and adaptive immune responses to primary Influenza A Virus infection
+["viral","influenza A","Influenza", "H3N2", "Flu","anti-body "Infection", "virus", "IAV", "adaptive", "immune response", "mice","mammalian cells", "T-cell"] V
+
+438
+No params ["Influenza","quorum sensing","Infection","Acyl Homoserine Lactone","AHL", "virus","viral"] V
+
+BIOMD0000000196 - Srividhya2006_CellCycle
+???
+
+
+BIOMD0000000454 - Smallbone2013 - Metabolic Control Analysis - Example 1
+["influen
+
+BIOMD0000000432 - Sarma2012 - Interaction topologies of MAPK cascade (M4_K2_QSS_USEQ)
+["influenza","influenza A","Flu","infection","virus","viral","immune","feedback loops","MAPK","phosphatase","dephosphorylation","kinase"] V
+433
+too V
+BIOMD0000000630 - Venkatraman2011 - PLS-UPA behaviour in the presence of substrate competition
+["influenza","influenza A","Flu","infection","virus","viral","immune","plasmin","urokinase","PLS","UPA"] VX (not all params?!)
+
+BIOMD0000000315 - Montagne2011_Oligator_optimised
+["influenza","influenza A","Flu","infection","virus","viral","immune","DNA","non-living settings"] V
+
+BIOMD0000000440 - Sarma2012 - Oscillations in MAPK cascade (S1)
+["influenza","influenza A","Flu","infection","virus","viral","immune","feedback loops","MAPK","kinase"]
+V
+
+BIOMD0000000441 - Sarma2012 - Oscillations in MAPK cascade (S2)
+["influenza","influenza A","Flu","infection","virus","viral","immune","feedback loops","MAPK","kinase"] V
+BIOMD0000000442 V
+
+
+BIOMD0000000258 - Ortega2006 - bistability from double phosphorylation in signal transduction
+["influenza","influenza A","Flu","infection","virus","viral","immune","hysteresis","bistability","phosphorylation","dephosphorylation","enzyme"]
+V
+ 
