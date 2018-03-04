@@ -22,7 +22,7 @@ default_val = 'NULL'
 k = []
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
-'''
+
 c.execute('CREATE TABLE {tn} ({nf} {ft_id},{nf1} {ft},{nf2} {ft_id})'\
         .format(tn=table_name1, nf=Terms_id_column, nf1=term_name_column, nf2=Terms_bio_column ,ft=field_type, ft_id=field_type_id))
 
@@ -32,12 +32,12 @@ c.execute('CREATE TABLE {tn} ({nf} {ft_id} PRIMARY KEY,{nf1} {ft},{nf2} {ft},{nf
 
 '''
 i = 0
-while i< 695:
+while i< 321:
 	c.execute("INSERT INTO {tn} ('term_id','term_name','bionum_ids')VALUES ({id_s}, '{term}', {numm});".\
 	format(tn=table_name1, id_s =5, term='microbial', numm=i ))
 	i+=1
 '''
-
+'''
 c.execute('SELECT DISTINCT term_name FROM Terms;')
 d = c.fetchall()
 s=[]

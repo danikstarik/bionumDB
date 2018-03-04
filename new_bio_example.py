@@ -14,7 +14,7 @@ from pprint import pprint
 BM = BioModels()
 reader = SBMLReader()
 
-l= 'BIOMD0000000528.xml'
+l= 'BIOMD0000000442.xml'
 
 document = reader.readSBML(l)
 m = document.getModel();
@@ -32,7 +32,7 @@ print(m.getListOfAllElements())
 print('Parameters \n')
 pa = 0
 
-#print(parList[2].getIdAttribute())
+print(parList[2].getIdAttribute())
 print(m.getListOfReactions().getListOfAllElements())
 
 print('Reactions \n')
@@ -43,16 +43,10 @@ print(numRea)
 while rea< numRea:
 	reaction = m.getReaction(rea)
 	print(reaction)
-	'''
-	if reaction.isSetAnnotation():
-		print(reaction.getAnnotationString())
-	'''
 
 	mods = set()
 	for mod in reaction.getListOfModifiers():
 		mods.add(mod.getSpecies())
-		print(mod)
-
 	products = set()
 	for prod in reaction.getListOfProducts():
 		products.add(prod.getSpecies())
@@ -86,9 +80,8 @@ thisModel = m.getName()
 print(thisModel)
 JSONstringDict = {}
 
-i_old = 0
+i_old = 263
 i = i_old
-
 for p in paramDict.keys():
 	paramDict[p]["name"]="|"+p.getIdAttribute()+"|  "+paramDict[p]["name"]
 	JSONstringDict[i]={"index":i,"user":"danikstarik","name":paramDict[p]["name"],"symbol":p.getIdAttribute(),"value":p.getValue(),"units":p.getUnits(),"notes":paramDict[p]["notes"],"constant":p.getConstant()}
