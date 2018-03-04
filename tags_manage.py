@@ -7,7 +7,7 @@ import sqlite3
 
 models_list = []
 i = 0
-while i<695:
+while i<696:
 	models_list.append("ex"+str(i)+".json")
 	i+=1
 
@@ -21,21 +21,20 @@ for mod in models_list:
 
 
 
-'''
+
 	for ter in data["tags"]:
 		try:
 			terms_dict[ter].append(data["index"])
 		except:
 			ter = ter.encode('ascii','ignore')
 			terms_dict[ter] = [data["index"]]
-'''
 
 
 
 
-print(terms_dict)
-pprint(terms_dict.keys())
 
+#print(terms_dict)
+#pprint(terms_dict.keys())
 
 sqlite_file = 'my_first_db1.sqlite'    # name of the sqlite database file
 table_name1 = 'Terms'  # name of the table to be created

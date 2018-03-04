@@ -32,7 +32,7 @@ print(m.getListOfAllElements())
 print('Parameters \n')
 pa = 0
 
-
+	
 print(m.getListOfReactions().getListOfAllElements())
 print()
 
@@ -44,6 +44,11 @@ print(numRea)
 while rea< numRea:
 	reaction = m.getReaction(rea)
 	print(reaction)
+	if reaction.isSetCompartment():
+		print(reaction.getCompartment())
+
+	if reaction.isSetNotes():
+		print(reaction.getNotes())
 	mods = set()
 
 	for mod in reaction.getListOfModifiers():
@@ -79,8 +84,9 @@ for rule in ruleList:
 JSONstringDict = {}
 thisModel = m.getName()
 
-i_old = 383
+i_old = 0 #383
 i = i_old
+'''
 for p in paramDict.keys():
 	paramDict[p]["name"]="|"+p.getIdAttribute()+"|  "+paramDict[p]["name"]
 	JSONstringDict[i]={"index":i,"user":"danikstarik","name":paramDict[p]["name"],"symbol":p.getIdAttribute(),"value":p.getValue(),"units":p.getUnits(),"notes":paramDict[p]["notes"],"constant":p.getConstant()}
@@ -96,3 +102,4 @@ for key in JSONstringDict.keys():
 	with open(file, 'w') as outfile:
 	    json.dump(data, outfile)
 print('done')
+'''
