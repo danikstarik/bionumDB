@@ -1,1 +1,1 @@
-{"index":"701","user":"danikstarik","name":"binding Rate of sp in ","constant":"True","symbol":"s","value":"12","units":"N/A","notes":"Please, write a short description of a parameter","models":[["gm","https://www.google.com/"]],"tags":["TEST"],"curated":"True"}
+{"index":"701","user":"danikstarik","name":"Association rate of  in ","constant":"False","symbol":"s","value":"12","units":"N/A","notes":"Please, write a short description of a parameter","models":[["gm","https://www.google.com/"]],"tags":["TEST"],"curated":"False"}
